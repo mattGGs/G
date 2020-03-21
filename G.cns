@@ -20,12 +20,11 @@ FloatPersistIndex = 40  ;reset to 0 between rounds or matches. There are 60 int 
   				;variables repectively, meaning that none are persistent, i.e. all
   				;are reset. If you want your variables to persist between matches,
   				;you need to override state 5900 from common1.cns.
-600    700
-.42
+
 
 [Size]
-xscale = .49			;Horizontal scaling factor.
-yscale = .49			;Vertical scaling factor.
+xscale = .34			;Horizontal scaling factor.
+yscale = .34			;Vertical scaling factor.
 ground.back = 15		;Player width (back, ground)
 ground.front = 16		;Player width (front, ground)
 air.back = 12		;Player width (back, air)
